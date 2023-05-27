@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="...">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<head>
+  <meta charset="UTF-8">
+  <title>Acerca de Nosotros</title>
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="..."></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="..."></script>
+
+<nav class="navbar navbar-dark bg-primary">
+<a class="navbar-brand" href="#007bff">Clinica</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/Form">Registro</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/nosotros">Nosotros</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<div class="container">
+  <h1>Acerca de Nosotros</h1>
+
+  <h3>Somos la clínica que abraza la vida</h3>
+
+  <img src="{{ url_for('static', filename='imagenes/Nosotros.jpg') }}" alt="Logo" width="400" height="400">
+
+  <p>A través de nuestro Centro de Investigación, contamos con un equipo de profesionales altamente calificados que buscan mediante el desarrollo de estudios clínicos ofrecer a sus pacientes innovadoras alternativas terapéuticas hematológicas y oncológicas, con el fin de mejorar la calidad de vida, la tasa de respuesta y su supervivencia.</p>
+
+  <p>Con el objetivo de brindar un proceso integral, contamos con un Comité de Ética en Investigación Institucional, quien se encarga de salvaguardar los derechos de los participantes en nuestros estudios, un servicio farmacéutico que incluye una central de mezclas bajo los más altos estándares de calidad, ayudas diagnósticas, laboratorio clínico y una completa área de aplicación de quimioterapia.</p>
+</div>
+
+<footer class="navbar navbar-dark bg-primary">
+  <div class="container text-center">
+    <span>&copy; Tendencias.Semestre 2023-1 Todos los derechos reservados.</span>
+  </div>
+</footer>
+</body>
+</html>

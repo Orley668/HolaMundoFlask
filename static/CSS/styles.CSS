@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Cambio de color de fondo a blanco */
+}
+
+header {
+  background-color: #007bff; /* Cambio de color de fondo a azul */
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  background-color: #007bff; /* Cambio de color de fondo a azul */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff; /* Cambio de color del texto a blanco */
+  text-decoration: none;
+  padding: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+table {
+  background-color: #fff; /* Cambio de color de fondo de la tabla a blanco */
+}
+
+thead {
+  background-color: #007bff; /* Cambio de color de fondo de la cabecera a azul */
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #007bff; /* Cambio de color del borde a azul */
+  padding: 8px;
+}
+
+tfoot {
+  background-color: #007bff; /* Cambio de color de fondo del pie de tabla a azul */
+  color: #fff;
+}
+
+.footer {
+  background-color: #007bff; /* Cambio de color de fondo del pie de página a azul */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-blue {
+  color: blue;
+}
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .persona-info {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .persona-info div {
+      margin-bottom: 10px;
+    }
+
+    .persona-info div label {
+      font-weight: bold;
+    }
+
+    a {
+      color: #007bff;
+    }
+.custom-button {
+  background-color: #C90000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.custom-button:hover {
+  background-color: #FF0000;
+}
